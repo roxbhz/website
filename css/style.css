@@ -1,13 +1,76 @@
-body{
-    background: yellow;
-    margin: 0px;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
-.cabecalho{
-    padding-left: 50px;
-}
-.cabecalho{
+
+header {
+    background-color: #34495e;
+    color: #fff;
     display: flex;
+    flex-direction: row;
+    padding: 0px 50px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cabecalho-img {
+
+}
+
+.cabecalho-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 200px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    height: 70px;
-    background: blue;
+    width: 100%;
+    justify-content: right;
+    padding-right: 50px;
+}
+
+.top-menu {
+    color: #fff;
+    width: 100%;
+    height: 15px;
+    display: flex;
+    background-color: #3498db;
+
+}
+.btn-top-menu{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.content {
+    margin-top: 100px;
+    padding: 20px;
+    padding: 0px 50px;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
