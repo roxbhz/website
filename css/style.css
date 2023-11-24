@@ -47,7 +47,8 @@ header {
     background-color: #3498db;
 
 }
-.btn-top-menu{
+.btn-top-contato{
+    transition: 400ms;
     background-color: #04AA6D; /* Green */
     border: none;
     color: white;
@@ -58,7 +59,12 @@ header {
     font-size: 16px;
     border-radius: 3px;
 }
-
+.btn-top-contato:hover{
+    
+    background-color: #08eb98;
+    transition: 400ms;
+;
+}
 .content {
     margin-top: 100px;
     padding: 20px;
