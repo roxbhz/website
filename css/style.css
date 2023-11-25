@@ -3,6 +3,7 @@
     --azul-claro--: #3498db;
     --azul-escuro--: #34495e;
     --green-btn--: #04AA6D;
+    --white--: #fff;
 }
 
 body {
@@ -12,8 +13,8 @@ body {
 }
 
 header {
-    background-color: #34495e;
-    color: #fff;
+    background-color: var(--azul-escuro--);
+    color: var(--white--);
     display: flex;
     flex-direction: row;
     padding: 0px 50px;
@@ -44,10 +45,10 @@ header {
 
 .btn-top-contato {
     transition: 400ms;
-    background-color: #04AA6D;
+    background-color: var(--green-btn--);
     /* Green */
     border: none;
-    color: white;
+    color: var(--white--);
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
@@ -58,7 +59,7 @@ header {
 }
 
 .btn-top-contato:hover {
-    background-color: #8badd8;
+    background-color: var(--azul-claro--);
     transition: 400ms;
 }
 
@@ -73,7 +74,7 @@ header {
     margin: 3px;
     background: transparent;
     border: none;
-    color: white;
+    color: var(--white--);
 }
 
 .social-btn:hover {
@@ -89,7 +90,7 @@ header {
 }
 
 .bar-btn-cabecalho-off {
-    background: white;
+    background: var(--white--);
     width: 100%;
     height: 2px;
 }
@@ -106,10 +107,10 @@ header {
 }
 
 .blue-bar {
-    color: #fff;
+    color: var(--white--);
     width: 100%;
     height: 15px;
-    background-color: #3498db;
+    background-color: var(--azul-claro--);
 }
 
 
@@ -135,8 +136,8 @@ header {
 }
 
 footer {
-    background-color: #34495e;
-    color: #fff;
+    background-color: var(--azul-escuro--);
+    color: var(--white--);
     padding: 10px;
     text-align: center;
     position: fixed;
