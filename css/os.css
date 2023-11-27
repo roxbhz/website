@@ -1,0 +1,68 @@
+:root {
+
+    --azul-claro--: #3498db;
+    --azul-escuro--: #34495e;
+    --green-btn--: #04AA6D;
+    --white--: #fff;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--azul-claro--);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input{
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.pesquisar-os{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-search-os {
+    transition: 400ms;
+    background-color: var(--green-btn--);
+    /* Green */
+    border: none;
+    color: var(--white--);
+    padding: 10px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.btn-search-os:hover {
+    transition: 400ms;
+    background-color: rgb(4, 118, 170);
+}
+
+.os-detail{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 5px 25px;
+    margin-bottom: 15px;
+    color: white;
+    align-items: center;
+    display: none; //-- OCULTANDO A DIV RESULTADO
+}
+
+.os-info{
+    background: rgba(0, 0, 0, 0.158);
+    padding: 2px 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
