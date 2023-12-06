@@ -99,12 +99,12 @@ header {
     transition: 300ms;
     background: transparent;
     border: none;
-    color: var(--azul-claro--);
+    color: white;
     font-weight: bold;
 }
 .btn-cabecalho:hover {
     transition: 300ms;
-    color: white;
+    color: var(--azul-claro--);
 }
 
 .btn-cabecalho:hover {
@@ -120,45 +120,45 @@ header {
 
 
 .content {
-    padding: 0px 50px;
-    background-position: center;
-    height: 60vh;
     display: flex;
-    padding-top: 50px;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    height: 450px;
+    background: black;
+    padding: 0vw 10vw;
 }
 
-.content::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url("../img/bg.jpg");
-    background-size: cover;
-    background-position: bottom;
-    z-index: -1;
-    opacity: 0.6;
-    border: red 1 solid;
+.content-text{
+    margin-top: 40px;
+    width: 40vw;
 }
+
+.content-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .services{
-    width: 100%;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 300px;
+    padding: 0vw 10vw;
 }
 
 .sevice1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
 }
 
 .service-title{
     font-weight: bold;
 }
 .service-description{
-    color: white;
+    color: var(--white--);
     font-style: italic;
 }
 footer {
