@@ -30,7 +30,7 @@ input{
     align-items: center;
 }
 
-.btn-search-os {
+#btn-search-os {
     transition: 400ms;
     background-color: var(--green-btn--);
     /* Green */
@@ -42,7 +42,7 @@ input{
     border-radius: 3px;
 }
 
-.btn-search-os:hover {
+#btn-search-os:hover {
     transition: 400ms;
     background-color: rgb(4, 118, 170);
 }
@@ -57,7 +57,7 @@ input{
     margin-bottom: 15px;
     color: white;
     align-items: center;
-    display: none; //-- OCULTANDO A DIV RESULTADO
+    display: none; // -- OCULTANDO A DIV RESULTADO
 }
 
 .os-info{
