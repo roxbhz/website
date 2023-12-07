@@ -24,6 +24,10 @@ a{
     text-decoration: none;
     color: white;
 }
+
+a:hover{
+    color: var(--azul-escuro--);
+}
 .logo-title {
     color: white;
     font-weight: bold;
@@ -57,7 +61,7 @@ a{
     padding-right: 50px;
 }
 
-.btn-top-contato {
+.btn-top-os {
     transition: 400ms;
     background-color: var(--green-btn--);
     border: none;
