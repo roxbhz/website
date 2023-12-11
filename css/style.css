@@ -189,6 +189,7 @@ a:hover{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding: 35px 0px;
 }
 
 .post-info {
@@ -220,7 +221,7 @@ a:hover{
     display: inline-block;
     font-size: 16px;
     border-radius: 3px;
-    margin: 0px 0px 15px 30px;
+    margin: 0px 0px 0px 30px;
 }
 
 .btn-post-homepage:hover {
@@ -239,24 +240,24 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 0 auto;
+    padding: 0 auto 35px auto;
 }
 
 .footer-left {
-    margin: 0 20px;
+    margin: 35px 0px;
     width: 100%;
     margin-left: 80px;
     padding: 0px 10px;
 }
 
 .footer-center {
-    padding: 20px;
+    padding: 35px 0px;
     margin: 0 10px;
     width: 100%;
 }
 
 .footer-right {
-    padding: 20px;
+    padding: 35px 0px;
     margin: 0 10px;
     width: 100%;
     margin-right: 80px;
